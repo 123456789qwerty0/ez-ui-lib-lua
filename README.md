@@ -5,7 +5,7 @@ Window(<string> title)
    Slider(<string> text, <table> options {max, default}, <function> callback)
    ______________________________________________________________________
    example:
-   local lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/loglizzy/lib/main/main.lua'))()
+   local lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/123456789qwerty0/ez-ui-lib-lua/main/main.lua'))()
 local window = lib:Window('title here')
 
 window:Toggle('toggle', function(enabled)
